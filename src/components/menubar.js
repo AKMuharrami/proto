@@ -139,7 +139,7 @@ function ResponsiveAppBar() {
 
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open contacts">
-                <label style={{cursor: "pointer", fontWeight: 400, fontSize: 22}} onClick={handleOpenUserMenu} >Contact </label>
+                <label style={{cursor: "pointer", fontWeight: 400, fontSize: 20}} onClick={handleOpenUserMenu} >Contact </label>
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                 {/* <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" /> */}
               </IconButton>
