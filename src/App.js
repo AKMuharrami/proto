@@ -2,7 +2,7 @@ import './App.css';
 import {Route, Routes} from 'react-router-dom'
 import ResponsiveAppBar from './components/menubar';
 import Home from './components/home';
-import team from './components/team';
+import Team from './components/team';
 function App() {
   return (
     <div>
@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path='/' Component={Home}/>
         {/* <Route path='/mission' Component={}/> */}
-        <Route path='/team' Component={team}/>
+        <Route path='/team' Component={Team}/>
         {/* <Route path='/about' Component={}/>  */}
 
       </Routes>  

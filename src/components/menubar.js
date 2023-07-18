@@ -97,18 +97,19 @@ function ResponsiveAppBar() {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page.name} LinkComponent={Link} to={page.route}>
-                  <Typography textAlign="center">{page.name}</Typography>
+                <MenuItem key={page.name} >
+                  <Button LinkComponent={Link} to={page.route} ><Typography textAlign="center" style={{color:'#0b0E13'}}>{page.name}</Typography></Button>
                 </MenuItem>
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+          <AdbIcon  sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
           <Typography
+          
             variant="h5"
             noWrap
             component="a"
-            href=""
+            href="/"
             sx={{
               mr: 2,
               display: { xs: 'flex', md: 'none' },
