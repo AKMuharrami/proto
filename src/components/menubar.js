@@ -106,7 +106,7 @@ function ResponsiveAppBar() {
           <AdbIcon  sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
           <Typography
           
-            variant="h5"
+            variant="h6"
             noWrap
             component="a"
             href="/"
@@ -121,7 +121,7 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            ISTIQAMAH
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (

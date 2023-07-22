@@ -10,24 +10,24 @@ export default function Team() {
     <div style={{background: '#0B0E13', width: "100vw", paddingBottom:'70px', zIndex:-1}}>
         <div style={{background: '#0B0E13', width: "100vw", paddingBottom:'50px', zIndex:-1, height:'8vh'}}></div>
             {isDesktopOrLaptop &&<div style={{display:'flex', justifyContent:'space-between', background:'#323136', height:'35vh'}}>
-            <img src="https://generations.krea.ai/images/cc9b4362-54cb-4366-ace2-ae639afb7d39.webp" alt=""></img>
+            <img src="https://canvas-generations-v1.s3.us-west-2.amazonaws.com/2423baeb-ceab-4d81-8830-d4a4cb3c8bf4.png" alt=""></img>
             </div>}
             {isTabletOrMobile &&<div style={{display:'flex', justifyContent:'space-between', background:'#323136', height:'20vh'}}>
-            <img src="https://generations.krea.ai/images/cc9b4362-54cb-4366-ace2-ae639afb7d39.webp" alt=""></img>
+            <img src="https://canvas-generations-v1.s3.us-west-2.amazonaws.com/2423baeb-ceab-4d81-8830-d4a4cb3c8bf4.png"  alt=""></img>
             </div>}
             <div style={{background: '#0B0E13', width: "100vw", paddingBottom:'50px', zIndex:-1, height:'.1vh'}}></div>
             {isDesktopOrLaptop &&<div style={{display:'flex', justifyContent:'space-between', background:'#323136', height:'35vh'}}>
-         <img src="https://generations.krea.ai/images/28706579-7af7-4f3d-b4c5-8666c95d2f93.webp" alt=""></img>
+         <img src="https://canvas-generations-v1.s3.us-west-2.amazonaws.com/91c0f871-c16a-4a9b-8606-60adfef75b4d.png" style={{transform:" scaleX(-1)"}} alt=""></img>
             </div>}
             {isTabletOrMobile &&<div style={{display:'flex', justifyContent:'space-between', background:'#323136', height:'20vh'}}>
-         <img src="https://generations.krea.ai/images/28706579-7af7-4f3d-b4c5-8666c95d2f93.webp" alt=""></img>
+         <img src="https://canvas-generations-v1.s3.us-west-2.amazonaws.com/91c0f871-c16a-4a9b-8606-60adfef75b4d.png" style={{transform:" scaleX(-1)"}} alt=""></img>
             </div>}
             <div style={{background: '#0B0E13', width: "100vw", paddingBottom:'50px', zIndex:-1, height:'.1vh'}}></div>
             {isDesktopOrLaptop &&<div style={{display:'flex', justifyContent:'space-between', background:'#323136', height:'35vh'}}>
-            <img src="https://generations.krea.ai/images/45f875a8-97b9-4fa4-ab6f-5a71dc3f6050.webp" alt=""></img>
+            <img src="https://canvas-generations-v1.s3.us-west-2.amazonaws.com/fdd9cfdf-a1ae-40c2-984a-26526d0eb98f.png" alt=""></img>
         </div>}
         {isTabletOrMobile &&<div style={{display:'flex', justifyContent:'space-between', background:'#323136', height:'20vh'}}>
-            <img src="https://generations.krea.ai/images/45f875a8-97b9-4fa4-ab6f-5a71dc3f6050.webp" alt=""></img>
+            <img src="https://canvas-generations-v1.s3.us-west-2.amazonaws.com/fdd9cfdf-a1ae-40c2-984a-26526d0eb98f.png" alt=""></img>
         </div>}
     </div>
 )}
